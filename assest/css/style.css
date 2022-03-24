@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: gray; */
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.width-content {
+    width: 800px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 30px;
+}
+.text-font-h2 {
+    letter-spacing: 4px;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+.text-font-i {
+    margin: 15px 0;
+    opacity: 0.6;
+    font-style: italic;
+}
+.box-text {
+    text-align: justify;
+    margin: 15px 0;
+}
+.row {
+    padding: 32px 0;
+    margin: 0 -22px;
+}
+
+.col {
+    float: left;
+
+}
+
+.col-thirth {
+    width: 33.33333%;
+    padding: 0 22px;
+}
+.clear {
+    clear: both;
+}
+
+.col-half {
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+nav {
+    height: 46px;
+    background-color: black;
+    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#nav > li {
+    display: inline-block;
+
+}
+
+#nav li a {
+    color: white;
+    padding: 0 16px;
+    text-decoration: none;
+    line-height: 46px;
+    display: block;
+    text-transform: uppercase;
+}
+
+.sub-nav > li:hover > a,
+#nav > li:hover > a {
+    background-color: #ccc;
+    color: black;
+}
+
+.sub-nav {
+    position: absolute;
+    list-style-type: none;
+    width: 150px;
+    background-color: white;
+    display: none;
+}
+
+#nav .sub-nav a {
+    text-transform: none;
+    color: black;
+    padding-left: 6px;
+}
+
+#nav li:hover .sub-nav {
+    display: block;
+}
+
+#nav li i {
+    padding-left: 6px;
+}
+.icon-menu,
+.search-btn {
+    position: absolute;
+    color: white;
+    top: 0;
+    right: 0;
+    line-height: 46px;
+    padding: 0 26px;
+}
+.icon-menu {
+    display: none;
+}
+
+.search-btn:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+#slider {
+    padding-top: 50%;
+    background: url("../img/slide/la.jpg") top center / cover no-repeat;
+    margin-top: 46px;
+    padding-bottom: 47px;
+}
+
+.text-content {
+    color: white;
+}
+.text-heading {
+    margin-bottom: 15px;
+}
+
+.img-member {
+    width: 100%;
+    border-radius: 4px;
+}
+.img-name-title {
+    margin: 15px 0;
+}
+
+#content-tour {
+    background-color: black;
+    color: white;
+}
+
+#content-tour img {
+    width: 100%;
+}
+
+.col-img {
+    background-color: white;
+    color: black;
+}
+.text-col-img {
+    padding: 0 16px;
+}
+.tour-month {
+    background-color: white;
+    color: #757575;
+}
+.tour-month p {
+    border-bottom: 1px solid #ddd;
+    padding: 8px 16px;
+}
+
+
+.custom-btn {
+    margin-bottom: 16px;
+    padding: 8px 16px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+.custom-btn:hover {
+    color: black;
+    background-color: #ccc;
+}
+
+.tour-month-sold {
+    color: white;
+    background-color: #f44336;
+    margin-left: 10px;
+    padding: 2px 8px;
+}
+
+.tour-month-3 {
+    float:right;
+    color: white;
+    background-color: black;
+    line-height: 8px;
+    padding: 6px 8px;
+    border-radius: 50%;
+}
+
+.col-2 {
+    float: left;
+    padding: 0 8px;
+    width: 50%;
+}
+.col-3 {
+    padding: 8px 0;
+}
+
+.row-input {
+    margin:0 -8px;
+}
+
+.col-3 input,
+.col-2 input {
+    width: 100%;
+    padding: 8px;
+    font-size: 15px;
+}
+
+.cus-btn-1 {
+    float: right;
+    margin-top: 15px !important;
+    font-size: 15px;
+}
+
+.contact-box {
+    line-height: 1.5;
+    font-size: 18px;
+
+}
+.contact-box i {
+    width: 30px;
+}
+
+.bg-img > img{
+    width: 100%;
+}
+
+footer {
+    font-size: 25px;
+    opacity: 0.7;
+}
+footer p {
+    margin: 15px 0;
+}
+footer i:hover {
+    opacity: 0.5;
+}
